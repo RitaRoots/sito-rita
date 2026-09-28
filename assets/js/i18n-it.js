@@ -71,8 +71,6 @@ window.I18N_IT = {
     "L'Italia vera, fuori dai percorsi turistici",
   "Rita can accompany you through the regions, drive when needed, translate at the meetings, and point you to the food & wine worth your time — anywhere in Italy.":
     "Rita può accompagnarti di regione in regione, guidare quando serve, tradurre agli incontri e indicarti il cibo e il vino che meritano davvero il tuo tempo — in tutta Italia.",
-  "A photograph of Rita will live here":
-    "Qui troverà posto una fotografia di Rita",
   "Who is Rita":
     "Chi è Rita",
   "Graduated from Bologna University in 1995 with a major in Linguistics – English Language and Literature, I have lived, worked and travelled between USA and Italy for thirty years.":
@@ -805,6 +803,8 @@ window.I18N_IT = {
     "Invio in corso…",
 
   /* ---------- attributi (alt, placeholder, aria-label) ---------- */
+  "Portrait of Rita Roncassaglia, smiling, in a white shirt.":
+    "Ritratto di Rita Roncassaglia, sorridente, in camicia bianca.",
   "A clerk in an Italian town hall fetching a register, while the records are read at the counter.":
     "Un'impiegata di un municipio italiano va a prendere un registro, mentre al bancone si leggono i documenti.",
   "A hand holding a hundred-year-old record card above an open register of births.":

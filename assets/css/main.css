@@ -808,6 +808,23 @@ html:not([lang="it"]) .reviews-note { display: none; }
   border-radius: calc(var(--radius-l) - 8px);
   pointer-events: none;
 }
+/* Con la foto di Rita: niente monogramma "RR" sopra l'immagine. */
+.profile__media--photo::after { display: none; }
+.profile__photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 10%;   /* il volto resta nel riquadro anche quando e' tagliato */
+}
+/* Ritratto nel riquadro della home: stessa inquadratura */
+.media-frame__img--portrait { object-position: 50% 10%; }
+/* La foto ha lo sfondo chiaro: filetto e angoli in oro pieno,
+   altrimenti crema e oro chiaro spariscono. */
+.profile__media--photo .frame-ornament,
+.profile__media--photo .media-frame__rule { border-color: rgba(201, 162, 75, 0.8); }
+.profile__media--photo .media-frame__corner { color: var(--c-gold); }
 
 .profile__body p { font-size: 1.05rem; }
 .profile__signature {
