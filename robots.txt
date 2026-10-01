@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rikybasket33.github.io/sito-rita/sitemap.xml
+Sitemap: https://ritaroots.github.io/sito-rita/sitemap.xml
